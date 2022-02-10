@@ -1,0 +1,8 @@
+D:\project\Класы2\bin\Debug\Класы2.exe.config
+D:\project\Класы2\bin\Debug\Класы2.exe
+D:\project\Класы2\bin\Debug\Класы2.pdb
+D:\project\Класы2\obj\Debug\Класы2.csproj.AssemblyReference.cache
+D:\project\Класы2\obj\Debug\Класы2.csproj.SuggestedBindingRedirects.cache
+D:\project\Класы2\obj\Debug\Класы2.csproj.CoreCompileInputs.cache
+D:\project\Класы2\obj\Debug\Класы2.exe
+D:\project\Класы2\obj\Debug\Класы2.pdb
