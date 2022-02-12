@@ -1,0 +1,8 @@
+D:\project\конвертер\bin\Debug\конвертер.exe.config
+D:\project\конвертер\bin\Debug\конвертер.exe
+D:\project\конвертер\bin\Debug\конвертер.pdb
+D:\project\конвертер\obj\Debug\конвертер.csproj.AssemblyReference.cache
+D:\project\конвертер\obj\Debug\конвертер.csproj.SuggestedBindingRedirects.cache
+D:\project\конвертер\obj\Debug\конвертер.csproj.CoreCompileInputs.cache
+D:\project\конвертер\obj\Debug\конвертер.exe
+D:\project\конвертер\obj\Debug\конвертер.pdb
