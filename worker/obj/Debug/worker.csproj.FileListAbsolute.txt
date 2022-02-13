@@ -1,0 +1,8 @@
+D:\project\worker\obj\Debug\worker.csproj.AssemblyReference.cache
+D:\project\worker\obj\Debug\worker.csproj.SuggestedBindingRedirects.cache
+D:\project\worker\obj\Debug\worker.csproj.CoreCompileInputs.cache
+D:\project\worker\bin\Debug\worker.exe.config
+D:\project\worker\bin\Debug\worker.exe
+D:\project\worker\bin\Debug\worker.pdb
+D:\project\worker\obj\Debug\worker.exe
+D:\project\worker\obj\Debug\worker.pdb
