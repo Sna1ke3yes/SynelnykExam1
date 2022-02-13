@@ -75,19 +75,19 @@ namespace конвертер
                 if (choise == "1")
                 {
                     result = con * RUB;
-                    Console.WriteLine($"рубли:{result}");
+                    Console.WriteLine($"гривны:{result}");
                 }
 
                 else if (choise == "2")
                 {
                     result = con * EUR;
-                    Console.WriteLine($"евро:{result}");
+                    Console.WriteLine($"гривны:{result}");
                 }
 
                 else if (choise == "3")
                 {
                     result = con * USD;
-                    Console.WriteLine($"долар:{result}");
+                    Console.WriteLine($"гривны:{result}");
                 }
                 else
 
