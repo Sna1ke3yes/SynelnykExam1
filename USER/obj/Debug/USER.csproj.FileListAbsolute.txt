@@ -1,0 +1,8 @@
+D:\project\USER\obj\Debug\USER.csproj.AssemblyReference.cache
+D:\project\USER\obj\Debug\USER.csproj.SuggestedBindingRedirects.cache
+D:\project\USER\obj\Debug\USER.csproj.CoreCompileInputs.cache
+D:\project\USER\bin\Debug\USER.exe.config
+D:\project\USER\bin\Debug\USER.exe
+D:\project\USER\bin\Debug\USER.pdb
+D:\project\USER\obj\Debug\USER.exe
+D:\project\USER\obj\Debug\USER.pdb
