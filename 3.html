@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аналітичний звіт щодо загроз національній безпеці Франції</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.8;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 50px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            border-radius: 8px;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 4px solid #e74c3c;
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            font-size: 32px;
+            color: #c0392b;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        .subtitle {
+            font-size: 18px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .threat-section {
+            margin-bottom: 40px;
+            padding: 25px;
+            background: #f8f9fa;
+            border-left: 6px solid #e74c3c;
+            border-radius: 4px;
+        }
+        
+        .threat-section:nth-child(even) {
+            background: #ecf0f1;
+            border-left-color: #e67e22;
+        }
+        
+        h2 {
+            font-size: 24px;
+            color: #c0392b;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        
+        h3 {
+            font-size: 18px;
+            color: #34495e;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        p {
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+        
+        .recommendations {
+            background: #e8f5e9;
+            padding: 30px;
+            border-radius: 8px;
+            border: 3px solid #27ae60;
+            margin-top: 40px;
+        }
+        
+        .recommendations h2 {
+            color: #27ae60;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        
+        .recommendation-item {
+            margin-bottom: 25px;
+        }
+        
+        .recommendation-item h3 {
+            color: #27ae60;
+            font-size: 19px;
+        }
+        
+        ul {
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+        
+        .conclusion {
+            background: #fff3cd;
+            padding: 30px;
+            border-radius: 8px;
+            border: 3px solid #f39c12;
+            margin-top: 40px;
+        }
+        
+        .conclusion h2 {
+            color: #d68910;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .separator {
+            height: 2px;
+            background: linear-gradient(to right, transparent, #bdc3c7, transparent);
+            margin: 30px 0;
+        }
+        
+        .navigation {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 4px solid #667eea;
+            text-align: center;
+        }
+        
+        .nav-title {
+            font-size: 20px;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .button {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+        
+        .button:active {
+            transform: translateY(-1px);
+        }
+        
+        .button-secondary {
+            background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%);
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4);
+        }
+        
+        .button-secondary:hover {
+            box-shadow: 0 6px 20px rgba(52, 152, 219, 0.6);
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+            .navigation {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Аналітичний звіт</h1>
+            <p class="subtitle">щодо загроз національній безпеці Франції</p>
+        </div>
+
+        <div class="threat-section">
+            <h2>1. Фінансова криза: критичний рівень загрози</h2>
+            
+            <h3>Загроза:</h3>
+            <p>Державний борг досяг 114,9% ВВП, при середньому рівні понад 105%. Такий показник становить серйозну небезпеку для фінансової стабільності країни. Французька економіка перебуває під високим борговим навантаженням, що робить її вразливою до будь-яких зовнішніх або внутрішніх криз.</p>
+            
+            <h3>Наслідки:</h3>
+            <p>Зростання витрат на обслуговування боргу може обмежити фінансування оборони, медицини, інфраструктури та соціальних програм. Також існує ризик зниження довіри інвесторів до французьких державних облігацій.</p>
+        </div>
+
+        <div class="threat-section">
+            <h2>2. Соціальна напруга: небезпечний рівень нерівності</h2>
+            
+            <h3>Загроза:</h3>
+            <p>Співвідношення доходів 10% найбагатших до 10% найбідніших становить у середньому 8,23. Такий рівень є потенційно дестабілізуючим фактором для суспільства.</p>
+            
+            <h3>Наслідки:</h3>
+            <p>Висока нерівність підвищує ризики страйків, протестів і соціальних конфліктів, що може поставити під загрозу внутрішню стабільність і довіру до інститутів влади.</p>
+        </div>
+
+        <div class="threat-section">
+            <h2>3. Демографічна проблема: старіння населення</h2>
+            
+            <h3>Загроза:</h3>
+            <p>Частка населення віком понад 65 років перевищила 21% і продовжує зростати, що є критичним показником.</p>
+            
+            <h3>Наслідки:</h3>
+            <p>Зменшення частки працездатного населення створює значне навантаження на пенсійну систему та систему охорони здоров'я. Без структурних реформ це може призвести до довгострокової фінансової нестабільності.</p>
+        </div>
+
+        <div class="threat-section">
+            <h2>4. Енергетична залежність: стратегічна вразливість</h2>
+            
+            <h3>Загроза:</h3>
+            <p>Імпортна енергозалежність Франції становить близько 47%. Частка власних джерел у загальному енергобалансі — приблизно 55%, що є недостатнім для забезпечення енергетичної безпеки.</p>
+            
+            <h3>Наслідки:</h3>
+            <p>Залежність від зовнішніх постачань підвищує ризики політичного та економічного тиску з боку інших держав, зокрема у випадках енергетичних криз.</p>
+        </div>
+
+        <div class="threat-section">
+            <h2>5. Промислова нестійкість: низька конкурентоспроможність</h2>
+            
+            <h3>Загроза:</h3>
+            <p>Рентабельність промислового сектору залишається на низькому рівні — від 0 до 5%, що суттєво нижче середнього по ЄС.</p>
+            
+            <h3>Наслідки:</h3>
+            <p>Недостатня прибутковість обмежує інвестиції у модернізацію та інновації, спричиняючи поступову деіндустріалізацію, скорочення робочих місць і зниження економічної стійкості.</p>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="recommendations">
+            <h2>Рекомендації</h2>
+
+            <div class="recommendation-item">
+                <h3>1. Посилення боргової дисципліни.</h3>
+                <ul>
+                    <li>Встановити жорсткі обмеження на нові державні витрати.</li>
+                    <li>Провести приватизацію неефективних державних активів.</li>
+                    <li>Розробити поетапний план зниження державного боргу до безпечного рівня.</li>
+                </ul>
+            </div>
+
+            <div class="recommendation-item">
+                <h3>2. Фіскальна реформа для зменшення нерівності.</h3>
+                <ul>
+                    <li>Спрощення системи оподаткування та зниження податкового навантаження на середній клас.</li>
+                    <li>Посилення боротьби з ухиленням від сплати податків великим бізнесом.</li>
+                    <li>Інвестування в освіту та охорону здоров'я для довгострокового зниження соціальної напруги.</li>
+                </ul>
+            </div>
+
+            <div class="recommendation-item">
+                <h3>3. Пенсійна реформа та підтримка народжуваності.</h3>
+                <ul>
+                    <li>Поступове підвищення пенсійного віку.</li>
+                    <li>Розроблення програм підтримки молодих сімей: доступне житло, дитячі садки, податкові пільги.</li>
+                </ul>
+            </div>
+
+            <div class="recommendation-item">
+                <h3>4. Енергетична самодостатність.</h3>
+                <ul>
+                    <li>Розвиток відновлюваних джерел енергії (сонячної, вітрової).</li>
+                    <li>Модернізація атомних електростанцій як стабільного джерела енергії.</li>
+                    <li>Інвестування у технології зберігання енергії.</li>
+                </ul>
+            </div>
+
+            <div class="recommendation-item">
+                <h3>5. Підтримка промисловості та інновацій.</h3>
+                <ul>
+                    <li>Зниження податкового навантаження на високотехнологічні галузі.</li>
+                    <li>Створення державно-приватних фондів для фінансування досліджень та розробок.</li>
+                    <li>Спростити регуляторні бар'єри для розвитку малого та середнього бізнесу.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="conclusion">
+            <h2>Висновок</h2>
+            <p>Франція перебуває перед низкою стратегічних викликів, що потребують системних реформ. Для збереження стабільності та конкурентоспроможності країні необхідно оперативно впровадити ефективні рішення у фінансовій, соціальній, енергетичній та промисловій сферах. Від швидкості та рішучості дій уряду залежатиме довгострокова безпека та добробут держави.</p>
+        </div>
+        
+        <div class="navigation">
+            <div class="nav-title">Навігація</div>
+            <a href="1.html" class="button">← Головна сторінка</a>
+            <a href="2.html" class="button button-secondary">← CV (Резюме)</a>
+        </div>
+    </div>
+</body>
+</html>
